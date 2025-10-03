@@ -1,2 +1,2 @@
 # Desarrollo-Web-Entorno-Cliente
-Repo para DWEC
+Este repositorio recopila las prácticas y proyectos realizados en la asignatura Desarrollo Web en Entorno Cliente del ciclo DAW.

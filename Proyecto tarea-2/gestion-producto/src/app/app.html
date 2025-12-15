@@ -1,0 +1,25 @@
+<!-- CABECERA -->
+<header class="bg-success text-white font-monospace py-3 mb-4">
+  <div class="container d-flex justify-content-between align-items-center">
+    <h1 class="display-6"><u>Gestión de Productos</u></h1>
+
+    <nav>
+      <a href="#" class="btn btn-outline-light me-2">Inicio</a>
+      <a href="#" class="btn btn-outline-light">Contacto</a>
+    </nav>
+  </div>
+</header>
+
+<!-- CONTENIDO PRINCIPAL -->
+<main class="container mb-5 bg-transparent">
+  <app-product-form (productoCreado)="onProductoCreado($event)"> </app-product-form>
+
+  <app-product-filter></app-product-filter>
+
+  <app-products-list></app-products-list>
+</main>
+
+<!-- FOOTER -->
+<footer class="bg-warning text-dark py-3 text-end border-top font-monospace mt-5 p-4">
+  <p class="m-0 text-muted"><u>© 2025 · Actividad DWEC · Angular 18</u></p>
+</footer>

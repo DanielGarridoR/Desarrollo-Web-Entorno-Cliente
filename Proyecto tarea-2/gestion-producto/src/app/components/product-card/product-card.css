@@ -1,0 +1,10 @@
+.card-hover {
+  overflow: hidden; /* evita que la imagen se salga */
+  transition: transform 0.4s ease;
+}
+
+.card-hover:hover {
+  transform: scale(1.05);
+  background-color:azure;
+  
+}

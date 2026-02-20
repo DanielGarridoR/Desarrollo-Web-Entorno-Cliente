@@ -1,0 +1,9 @@
+<h2>Listado de series</h2>
+
+<ul>
+  @for (s of series; track s._id) {
+    <li>
+      {{ s.title }} - {{ s.channel }} - {{ s.rating }}
+    </li>
+  }
+</ul>

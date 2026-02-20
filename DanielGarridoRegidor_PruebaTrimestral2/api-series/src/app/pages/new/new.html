@@ -1,0 +1,26 @@
+<h2>Nueva serie</h2>
+
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+
+  <div>
+    <label>Título</label>
+    <input type="text" formControlName="title">
+  </div>
+
+  <div>
+    <label>Canal</label>
+    <input type="text" formControlName="channel">
+  </div>
+
+  <div>
+    <label>Rating</label>
+    <input type="number" formControlName="rating">
+  </div>
+
+  <button type="submit" [disabled]="form.invalid">
+    Crear serie
+  </button>
+
+</form>
+
+<p>{{ message }}</p>
